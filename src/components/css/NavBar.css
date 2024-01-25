@@ -1,0 +1,9 @@
+nav{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+    background-color: aqua;
+}

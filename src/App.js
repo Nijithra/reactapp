@@ -9,6 +9,7 @@ import About from './components/functional_components/About';
 import Experiance from './components/functional_components/Experiance';
 import Login from './components/functional_components/Login';
 import Home from './components/functional_components/Home';
+import Footer from './components/functional_components/Footer';
 
 function App() {
   return (
@@ -16,20 +17,22 @@ function App() {
       <BrowserRouter>
       <NavBar/>
       <Routes>
-        <Route path="/" element={}></Route>
         <Route path="/Home" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/Experiance" element={<Experiance/>}></Route> 
         <Route path="/Login" element={<Login/>}></Route>
       </Routes>
-     
+   
       </BrowserRouter>
+      <div >
+   <Footer/>
+   </div>
       
       {/* <PropsComponent name="Nijithra" course="Mern"/> */}
       
-      <header className="App-header">
+      {/* <header className="App-header"> */}
     {/* <StateComponent/> */}
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
@@ -41,7 +44,7 @@ function App() {
         >
           Learn React
         </a> */}
-      </header>
+      {/* </header> */}
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 700px;
+    padding: 20px;
+    margin-bottom: 2px;
+    background-color: aqua;
+    text-decoration: none;
+}    
+
+
+.icon{
+    padding: 10px;
+}
+
+.copyright{
+    text-align: end; 
+    
+}
+
+.portfolio{
+    padding: 10 px;
+    padding-top: 0 px;
+}
