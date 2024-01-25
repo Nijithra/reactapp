@@ -9,10 +9,10 @@ import About from './components/functional_components/About';
 import Experiance from './components/functional_components/Experiance';
 import Login from './components/functional_components/Login';
 import Home from './components/functional_components/Home';
-<<<<<<< HEAD
+
 import Footer from './components/functional_components/Footer';
-=======
->>>>>>> a8a5dcf97f13b0152b149e41283454e4fcad7940
+
+
 
 function App() {
   return (
@@ -20,17 +20,16 @@ function App() {
       <BrowserRouter>
       <NavBar/>
       <Routes>
-<<<<<<< HEAD
-=======
-        <Route path="/" element={}></Route>
->>>>>>> a8a5dcf97f13b0152b149e41283454e4fcad7940
+
+
+       
+
         <Route path="/Home" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/Experiance" element={<Experiance/>}></Route> 
         <Route path="/Login" element={<Login/>}></Route>
       </Routes>
-<<<<<<< HEAD
-   
+
       </BrowserRouter>
       <div >
    <Footer/>
@@ -41,16 +40,16 @@ function App() {
       {/* <header className="App-header"> */}
     {/* <StateComponent/> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-=======
+
      
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
       
       {/* <PropsComponent name="Nijithra" course="Mern"/> */}
       
-      <header className="App-header">
+      {/* <header className="App-header"> */}
     {/* <StateComponent/> */}
-        <img src={logo} className="App-logo" alt="logo" />
->>>>>>> a8a5dcf97f13b0152b149e41283454e4fcad7940
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
@@ -62,11 +61,11 @@ function App() {
         >
           Learn React
         </a> */}
-<<<<<<< HEAD
+
       {/* </header> */}
-=======
-      </header>
->>>>>>> a8a5dcf97f13b0152b149e41283454e4fcad7940
+
+      {/* </header> */}
+
     </div>
   );
 }
