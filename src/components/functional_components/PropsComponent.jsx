@@ -1,7 +1,13 @@
+import "../css/PropsComponent.css";
 function PropsComponent(props){
+    // const styleAttrs={
+    //     backgroundColor:"red",
+    //     color:"white"
+    // }
+    
     return(
         <div>
-            <h1>Hello, {props.name} <br></br>This is {props.course} class</h1>
+            <h2>Hello, {props.name} <br></br>This is {props.course} class</h2>
         </div>
     )
 }
